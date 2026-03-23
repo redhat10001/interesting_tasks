@@ -1,5 +1,6 @@
 print('*' * 25)
 
+"""Добавить атрибуты в оригинальную функцию через декоратор"""
 
 def add_attrs(**set_kwargs):
     def decorator(func):
