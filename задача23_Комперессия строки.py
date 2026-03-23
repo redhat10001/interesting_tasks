@@ -1,3 +1,5 @@
+print('=' * 25)
+
 from itertools import groupby
 
 
