@@ -7,11 +7,12 @@ class User:
 
 
 user = User('admin')
+request = ''
 group_to_process_method = {
-    'admin': process_admin_request,
-    'manager': process_manager_request,
-    'client': process_client_request,
-    'anon': process_anon_request,
+    'admin': '', #process_admin_request
+    'manager': '', #process_manager_request
+    'client': '', #process_client_request
+    'anon': '' #process_anon_request
 }
 
 print(group_to_process_method[user.group](user, request))
