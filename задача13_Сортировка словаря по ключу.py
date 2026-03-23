@@ -1,5 +1,7 @@
 print('*' * 25)
 
+"""Сортировка"""
+
 def info_kwargs(**kwargs):
     my_dict = {key: value for key, value in kwargs.items()}
     sorted_list = sorted(my_dict.items(), key=lambda x: x[0]) # список кортежей
