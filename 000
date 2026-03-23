@@ -1,0 +1,9 @@
+    def apply_promo(self, code):
+        global ACTIVE_PROMO
+        for index, promo in enumerate(ACTIVE_PROMO):
+            if promo.code == code:
+                self.applied_promo = index
+                print(f"Промокод '{code}' успешно применен")
+                break
+        else:
+            print(f"Промокода '{code}' не существует")
