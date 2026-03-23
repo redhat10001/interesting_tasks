@@ -1,5 +1,7 @@
 print('*' * 25)
 
+"""Карточная колода"""
+
 cards2 = {}
 ranks = [str(n) for n in range(2, 11)] + list('ВДКТ')
 suits = 'трефы буби пики черви'.split()
