@@ -1,5 +1,7 @@
 print('*' * 25)
 
+"""Работа со словарем"""
+
 def create_actor(**kwargs):
     my_dict = {
         'name': 'Райан',
