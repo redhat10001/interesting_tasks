@@ -1,3 +1,5 @@
+print('=' * 25)
+
 from sympy import *
 
 def prime_number():
