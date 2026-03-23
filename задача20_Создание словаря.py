@@ -1,5 +1,7 @@
 print('*' * 25)
 
+'''Создание словаря'''
+
 show_manth = ['January',
               'February',
               'March',
