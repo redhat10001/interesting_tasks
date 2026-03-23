@@ -1,9 +1,11 @@
-print()
+print('=' * 25)
+
 '''
 Я сдаюсь на задаче фичи от продажников 2 :( Кому не трудно - 
 киньте в меня решением для разбора, ну или может помогите 
 понять что не так - 
 '''
+
 from dataclasses import dataclass, field
 from typing import List
 
